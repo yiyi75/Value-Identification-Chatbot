@@ -1,0 +1,52 @@
+<script src="https://unpkg.com/whatwg-fetch@latest"></script>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Chattake</title>
+	<link rel="icon" href="bot.png" />
+	<link rel="stylesheet" href="style.css" />
+	<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+	<!-- include only the Firebase features as you need -->
+	<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+	<script src="https://unpkg.com/whatwg-fetch@latest"></script>
+
+	<script>	
+		// Your web app's Firebase configuration
+		const firebaseConfig = {
+		apiKey: "xxx",
+		authDomain: "xxx",
+		projectId: "xxx",
+		storageBucket: "xxx",
+		messagingSenderId: "xxx",
+		appId: "xxx"
+		};
+	
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+	
+		firebase.analytics();
+		// Add this to disable right click
+		document.addEventListener('contextmenu', event => event.preventDefault());
+	</script>
+
+	<script src="index_domains.js"></script>
+	<script src="prompts.js"></script>
+</head>
+
+<body>
+	<div id="container" class="container">
+		<div id="chat" class="chat">
+			<div id="messages" class="messages">
+				Hello there! I'm Chattake, your Wellness Buddy. Let's take a moment to check in with your mind and wellbeing. Whenever you're ready, simply type '1' to begin.
+			</div>
+			<input id="input" class="hiddenField" name="hiddenField" type="text" placeholder="Say something..." autocomplete="off"/>
+			</div>
+	</div>
+	
+</body>
+</html>
