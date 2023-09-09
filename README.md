@@ -19,12 +19,7 @@ The Chatbot is built using HTML, JavaScript, and Firebase for backend functional
 - **Emotional Assessment**: The chatbot assesses the user's emotional state by asking questions related to positive affect, negative affect, stress, disidentification, nonreactivity, reappraisal, life satisfaction, autonomy, relatedness, competence, belonging, and meaningfulness.
 
 - **Firebase Integration**: Firebase is used for real-time data storage and retrieval, ensuring that user interactions and assessments are securely managed.
-- **Please Note**: To use the ChatGPT API, you need to initialize it with your own OpenAI API key. Replace the following lines in the index_domains.js with your API key:
-
-```javascript
-// replace with your openai api
-const apiKey = 'xxx'; 
-
+- 
 ## Getting Started
 
 To run the Value Identification Chatbot locally, follow these steps:
@@ -36,3 +31,8 @@ To run the Value Identification Chatbot locally, follow these steps:
 
 2. Open the HTML file (index.html) in your web browser.
 3. Start a conversation with Chattake and begin the value identification process.
+- **Please Note**: To use the ChatGPT API, you need to initialize it with your own OpenAI API key. Replace the following lines in the index_domains.js with your API key:
+
+```javascript
+// replace with your openai api
+const apiKey = 'xxx'; 
