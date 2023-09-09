@@ -1,6 +1,6 @@
 # Value Identification Chatbot
 
-![Chatbot Logo](robot.png)
+![Chatbot Logo](/public/robot.png)
 
 The Value Identification Chatbot, known as "Chattake," is an interactive web-based chatbot designed to help users identify and assess domains that are important to their well-being. The chatbot provides individualized and customized mindfulness interventions based on the user's selected domain and personal assessment.
 
