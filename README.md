@@ -21,9 +21,9 @@ The Chatbot is built using HTML, JavaScript, and Firebase for backend functional
 - **Firebase Integration**: Firebase is used for real-time data storage and retrieval, ensuring that user interactions and assessments are securely managed.
 - **Please Note**: To use the ChatGPT API, you need to initialize it with your own OpenAI API key. Replace the following lines in the index_domains.js with your API key:
 
-```index_domains.js
+```javascript
 // replace with your openai api
-const apiKey = 'xxx'; ```
+const apiKey = 'xxx'; 
 
 ## Getting Started
 
